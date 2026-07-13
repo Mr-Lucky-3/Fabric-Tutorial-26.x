@@ -2,6 +2,7 @@ package net.lucky.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.lucky.tutorialmod.item.ModItems;
 import net.minecraft.resources.Identifier;
 
 import org.slf4j.Logger;
@@ -15,6 +16,7 @@ public class TutorialMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Mod Initialized");
+		ModItems.registerModItems();
 	}
 
 	public static Identifier id(String path) {
