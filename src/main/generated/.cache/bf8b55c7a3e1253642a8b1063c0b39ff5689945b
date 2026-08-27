@@ -1,7 +1,9 @@
 // 26.1.2	-999999999-01-01T00:00:00	Tutorial Mod/Model Definitions
+72d904dd2e6d2994f55a84784ee8ae41b6b9ea4e assets/tutorialmod/items/amethyst_pickaxe.json
 e7b71a96855b3cd1423775dbfcb3426905d080c3 assets/tutorialmod/items/candy.json
 0be1ad5ae2627b4ea20c36c422e6001a29ecc7fe assets/tutorialmod/items/fluorite.json
 c9f5aefcd09ada451a50297fe87f61e6d9266e2d assets/tutorialmod/items/raw_fluorite.json
+c6ef8d870e8a7c630c63f0007047fc82cefa7a48 assets/tutorialmod/models/item/amethyst_pickaxe.json
 9452e5632dcd67fa7d3fe12e3c7b4db03abb8b4e assets/tutorialmod/models/item/candy.json
 274bc448a39a256231897fcbf4596ac4db786fa2 assets/tutorialmod/models/item/fluorite.json
 86543c2d342d40575f7a48ebccdf047d274127b8 assets/tutorialmod/models/item/raw_fluorite.json
