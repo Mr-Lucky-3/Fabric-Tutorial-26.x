@@ -1,0 +1,6 @@
+// 26.1.2	-999999999-01-01T00:00:00	Tutorial Mod/Tags for minecraft:block
+8cc07fc321529aea686cb3affe69ebb777d9842d data/minecraft/tags/block/mineable/pickaxe.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/block/needs_diamond_tool.json
+09b69dd749a4b48f17e7f17cf83683a85fe74baa data/minecraft/tags/block/needs_iron_tool.json
+a249c46329a41538f49a564e1f14338aaf1be5a0 data/tutorialmod/tags/block/incorrect_for_fluorite_tool.json
+32b13946c4cd1f944b029659ccce5fcb2adad4ff data/tutorialmod/tags/block/needs_fluorite_tool.json
