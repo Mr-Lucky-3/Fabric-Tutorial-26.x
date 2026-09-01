@@ -15,9 +15,13 @@ public class ModArmorMaterials {
             ResourceKey.createRegistryKey(Identifier.withDefaultNamespace("equipment_asset")); //Defines key as equipment
 
     public static final ResourceKey<EquipmentAsset> FLUORITE_KEY = ResourceKey.create(REGISTRY_KEY, Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, "fluorite")); //Creates key for material
+    public static final ResourceKey<EquipmentAsset> AZURITE_KEY = ResourceKey.create(REGISTRY_KEY, Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, "azurite"));
 
     public static final ArmorMaterial FLUORITE_ARMOR_MATERIAL = new ArmorMaterial(40    ,
             ArmorMaterials.makeDefense(3, 7, 9, 4, 20),
             20, SoundEvents.ARMOR_EQUIP_CHAIN, 4, 0.2f, ModTags.Items.FLUORITE_REPAIR, FLUORITE_KEY); //Basic Armor Tier/Material
+    public static final ArmorMaterial AZURITE_ARMOR_MATERIAL = new ArmorMaterial(40    ,
+            ArmorMaterials.makeDefense(3, 7, 9, 4, 20),
+            20, SoundEvents.ARMOR_EQUIP_CHAIN, 4, 0.2f, ModTags.Items.AZURITE_REPAIR, AZURITE_KEY);
 
 }

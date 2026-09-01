@@ -27,7 +27,13 @@ public class ModEquipmentAssetProvider implements DataProvider {
         consumer.accept(ModArmorMaterials.FLUORITE_KEY,
                 EquipmentClientInfo.builder()
                         .addHumanoidLayers(Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, "fluorite"))
-                        .build());
+                        .build()
+                );
+        consumer.accept(ModArmorMaterials.AZURITE_KEY,
+                EquipmentClientInfo.builder()
+                        .addHumanoidLayers(Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID,"azurite"))
+                        .build()
+                );
     }
 
     @Override

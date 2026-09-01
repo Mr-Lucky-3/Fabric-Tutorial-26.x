@@ -1,13 +1,14 @@
 // 26.1.2	-999999999-01-01T00:00:00	Tutorial Mod/Tags for minecraft:item
-9d7e20278499ad8c61d28514ea379378d0f650f6 data/minecraft/tags/item/axes.json
-00df68ad445025fb72f90523a34c216c02913aa6 data/minecraft/tags/item/chest_armor.json
-53cb3c6d8a362ae4f40babcc8793aac2ba15d59e data/minecraft/tags/item/foot_armor.json
-b6cac0199f04efaab89eef33f16228f9ff8b196a data/minecraft/tags/item/head_armor.json
-b3da0597552a7e770662ca131e0c3ef28f95b596 data/minecraft/tags/item/hoes.json
-fbacf4c35ba8ec6403ef2347135efc7f9bdb41a3 data/minecraft/tags/item/leg_armor.json
-8b79806d1e1d1bff7cf9fb74a9229d5cc3ecad30 data/minecraft/tags/item/pickaxes.json
-d757f88c8dab61f8df078fa381dcb263152fd30d data/minecraft/tags/item/shovels.json
-600dfb1844085bb1c832154b4e17b2f11dc5a2a6 data/minecraft/tags/item/spears.json
-60e1fcd86b0d0a05a5494e406de9fba133e6ace7 data/minecraft/tags/item/swords.json
+98270c3a03c9e1bed08b41e043015e8bb553bcd3 data/minecraft/tags/item/axes.json
+190db065577032460a14704364a68deb7ce123dd data/minecraft/tags/item/chest_armor.json
+ca185dcd0435341015a9621b7e48c88e8374bc8f data/minecraft/tags/item/foot_armor.json
+08f4e79c894046942a1724aed328a87066894df4 data/minecraft/tags/item/head_armor.json
+c07dcbe5c848db850a46957cc76d7a79ba2c7187 data/minecraft/tags/item/hoes.json
+530b90013399fd7e6da8ae4e2117ef723cd6343b data/minecraft/tags/item/leg_armor.json
+0760659b0f3803cbdc21ad170daf49bc6cb5625e data/minecraft/tags/item/pickaxes.json
+bbc58d510f3dae1d5359859beaa91054d15534c6 data/minecraft/tags/item/shovels.json
+42f10ce316d8647133c1d7dbb9b59b81988de21a data/minecraft/tags/item/spears.json
+019a9a8f8c0d4e618b3475b5ccfb48bb3127e3fb data/minecraft/tags/item/swords.json
+2a026dd656aa066e2a00aeefd165ca8bfa460b5b data/tutorialmod/tags/item/azurite_repair.json
 e2db39c9ca4f8245ab275150b4f113d2847e7b65 data/tutorialmod/tags/item/fluorite_repair.json
-021a6231d4588a3f4d5ff725464f03ddfed5fdf5 data/tutorialmod/tags/item/transformable_items.json
+451d14f8a71f4343c99e20144347ea94367ff91a data/tutorialmod/tags/item/transformable_items.json

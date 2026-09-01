@@ -11,6 +11,8 @@ public class ModWorldGeneration {
         // Actual world gen class
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Decoration.UNDERGROUND_ORES,
                 ModPlacedFeatures.OVERWORLD_FLUORITE_ORE_PLACED_KEY);
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Decoration.UNDERGROUND_ORES,
+                ModPlacedFeatures.OVERWORLD_AZURITE_ORE_PLACED_KEY);
 
         // Example for individual Biomes
         // BiomeModifications.addFeature(BiomeSelectors.includeByKey(Biomes.DEEP_OCEAN, Biomes.BADLANDS),

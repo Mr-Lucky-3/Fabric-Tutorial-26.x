@@ -20,19 +20,26 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.FLUORITE_BLOCK)
                 .add(ModBlocks.RAW_FLUORITE_BLOCK)
                 .add(ModBlocks.FLUORITE_ORE)
-                .add(ModBlocks.FLUORITE_DEEPSLATE_ORE);
+                .add(ModBlocks.FLUORITE_DEEPSLATE_ORE)
+                .add(ModBlocks.AZURITE_BLOCK)
+                .add(ModBlocks.RAW_AZURITE_BLOCK)
+                .add(ModBlocks.AZURITE_ORE)
+                .add(ModBlocks.AZURITE_DEEPSLATE_ORE);
 
         valueLookupBuilder(BlockTags.NEEDS_IRON_TOOL) //Tells the game the lowest tier to mine a certain block, as do the ones below
-                .add(ModBlocks.FLUORITE_DEEPSLATE_ORE);
+                .add(ModBlocks.FLUORITE_DEEPSLATE_ORE)
+                .add(ModBlocks.AZURITE_DEEPSLATE_ORE);
 
         getOrCreateRawBuilder(BlockTags.NEEDS_DIAMOND_TOOL);
 
         valueLookupBuilder(ModTags.Blocks.NEEDS_FLUORITE_TOOL)
                 .addTag(BlockTags.NEEDS_IRON_TOOL);
-
+        valueLookupBuilder(ModTags.Blocks.NEEDS_AZURITE_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
         valueLookupBuilder(ModTags.Blocks.INCORRECT_FOR_FLUORITE_TOOL)
                 .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
-
+        valueLookupBuilder(ModTags.Blocks.INCORRECT_FOR_AZURITE_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
 
     }
 }

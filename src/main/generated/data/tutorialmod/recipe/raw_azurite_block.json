@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "azurite",
+  "key": {
+    "R": "tutorialmod:raw_azurite"
+  },
+  "pattern": [
+    "RRR",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "id": "tutorialmod:raw_azurite_block"
+  }
+}

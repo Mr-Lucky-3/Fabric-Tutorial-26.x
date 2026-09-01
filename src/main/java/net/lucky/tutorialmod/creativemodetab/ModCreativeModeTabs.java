@@ -37,7 +37,35 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.FLUORITE_CHESTPLATE);
                         output.accept(ModItems.FLUORITE_LEGGINGS);
                         output.accept(ModItems.FLUORITE_BOOTS);
-                    }).build());
+                    }).build()
+    );
+
+    public static final CreativeModeTab AZURITE_ITEM_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
+            Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, "azurite_items"),
+            FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.AZURITE))
+                    .title(Component.translatable("creativemodetab.tutorialmod.fluorite_items"))
+                    .displayItems((parameters, output) -> {
+                        output.accept(ModItems.AZURITE);
+                        output.accept(ModItems.RAW_AZURITE);
+
+                        output.accept(ModItems.AZURITE_SWORD);
+                        output.accept(ModItems.AZURITE_PICKAXE);
+                        output.accept(ModItems.AZURITE_SHOVEL);
+                        output.accept(ModItems.AZURITE_AXE);
+                        output.accept(ModItems.AZURITE_HOE);
+                        output.accept(ModItems.AZURITE_SPEAR);
+
+                        output.accept(ModBlocks.AZURITE_BLOCK);
+                        output.accept(ModBlocks.RAW_AZURITE_BLOCK);
+                        output.accept(ModBlocks.AZURITE_ORE);
+                        output.accept(ModBlocks.AZURITE_DEEPSLATE_ORE);
+
+                        output.accept(ModItems.AZURITE_HELMET);
+                        output.accept(ModItems.AZURITE_CHESTPLATE);
+                        output.accept(ModItems.AZURITE_LEGGINGS);
+                        output.accept(ModItems.AZURITE_BOOTS);
+                    }).build()
+    );
 
     public static void registerModCreativeModeTabs() {
         TutorialMod.LOGGER.info("Registering Creative Mode Tabs for " + TutorialMod.MOD_ID);

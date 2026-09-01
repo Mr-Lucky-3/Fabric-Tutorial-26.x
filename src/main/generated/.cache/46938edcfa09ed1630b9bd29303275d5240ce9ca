@@ -1,3 +1,5 @@
 // 26.1.2	-999999999-01-01T00:00:00	Tutorial Mod/World Gen Provider
+bbd42adeb9242431e3c5ffbeb054625ef03e877e data/tutorialmod/worldgen/configured_feature/overworld_azurite_ore.json
 59d8cd874a4570fb60267bf4da1d6c7f499ff080 data/tutorialmod/worldgen/configured_feature/overworld_fluorite_ore.json
+bb88f9030d89f5d5baeedbce72db58f7546559fb data/tutorialmod/worldgen/placed_feature/overworld_azurite_ore_placed.json
 f0ee4e969dc13e40ca7672d1bb28fb9e28fa89a0 data/tutorialmod/worldgen/placed_feature/overworld_fluorite_ore_placed.json

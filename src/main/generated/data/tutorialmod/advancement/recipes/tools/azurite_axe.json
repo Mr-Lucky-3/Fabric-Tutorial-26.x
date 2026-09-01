@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_fluorite": {
+    "has_azurite": {
       "conditions": {
         "items": [
           {
-            "items": "tutorialmod:fluorite"
+            "items": "tutorialmod:azurite"
           }
         ]
       },
@@ -23,7 +23,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "tutorialmod:raw_fluorite_from_fluorite_and_stick"
+        "recipe": "tutorialmod:azurite_axe"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -31,13 +31,13 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_fluorite",
+      "has_azurite",
       "has_stick"
     ]
   ],
   "rewards": {
     "recipes": [
-      "tutorialmod:raw_fluorite_from_fluorite_and_stick"
+      "tutorialmod:azurite_axe"
     ]
   }
 }

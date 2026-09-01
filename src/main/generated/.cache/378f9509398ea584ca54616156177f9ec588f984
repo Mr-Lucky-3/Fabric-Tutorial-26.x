@@ -1,5 +1,9 @@
 // 26.1.2	-999999999-01-01T00:00:00	Tutorial Mod/Block Loot Tables
+8d485e53cfb0cd1beb1f9942d2fa40d2daa77681 data/tutorialmod/loot_table/blocks/azurite_block.json
+08528a90cf5d10d31cc073813ef3b7ea697c2eb2 data/tutorialmod/loot_table/blocks/azurite_deepslate_ore.json
+d5528c9633e71eed0c8e7780df5b41be038a2bc4 data/tutorialmod/loot_table/blocks/azurite_ore.json
 774b2a0eeb2e6a3612241246d21dc25d4bf4a4f1 data/tutorialmod/loot_table/blocks/fluorite_block.json
 65a2fade4e21d953351037740a4e2883a1abcd99 data/tutorialmod/loot_table/blocks/fluorite_deepslate_ore.json
 015f8bea96efd56a3e0f029749de03d313a9de94 data/tutorialmod/loot_table/blocks/fluorite_ore.json
+22e1879371a79600d369d7aca7e11529b19dbbc7 data/tutorialmod/loot_table/blocks/raw_azurite_block.json
 b44481bbca498a0f5121833a5ab06783f0c98f6f data/tutorialmod/loot_table/blocks/raw_fluorite_block.json

@@ -32,6 +32,7 @@ import java.util.List;
 public class ModConfiguredFeatures {
     // How something looks like
     public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_FLUORITE_ORE_KEY = registerKey("overworld_fluorite_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_AZURITE_ORE_KEY = registerKey("overworld_azurite_ore");
 
     public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceables = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
@@ -40,6 +41,10 @@ public class ModConfiguredFeatures {
         register(context, OVERWORLD_FLUORITE_ORE_KEY, Feature.ORE, new OreConfiguration(
                 List.of(OreConfiguration.target(stoneReplaceables, ModBlocks.FLUORITE_ORE.defaultBlockState()),
                         OreConfiguration.target(deepslateReplaceables, ModBlocks.FLUORITE_DEEPSLATE_ORE.defaultBlockState())),
+                9));
+        register(context, OVERWORLD_AZURITE_ORE_KEY, Feature.ORE, new OreConfiguration(
+                List.of(OreConfiguration.target(stoneReplaceables, ModBlocks.AZURITE_ORE.defaultBlockState()),
+                        OreConfiguration.target(deepslateReplaceables, ModBlocks.AZURITE_DEEPSLATE_ORE.defaultBlockState())),
                 9));
     }
 
