@@ -16,7 +16,7 @@ public class ModArmorMaterials {
 
     public static final ResourceKey<EquipmentAsset> FLUORITE_KEY = ResourceKey.create(REGISTRY_KEY, Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, "fluorite")); //Creates key for material
 
-    public static final ArmorMaterial FLUORITE_ARMOR_MATERIAL = new ArmorMaterial(750,
+    public static final ArmorMaterial FLUORITE_ARMOR_MATERIAL = new ArmorMaterial(40    ,
             ArmorMaterials.makeDefense(3, 7, 9, 4, 20),
             20, SoundEvents.ARMOR_EQUIP_CHAIN, 4, 0.2f, ModTags.Items.FLUORITE_REPAIR, FLUORITE_KEY); //Basic Armor Tier/Material
 
