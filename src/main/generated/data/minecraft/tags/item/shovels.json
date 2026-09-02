@@ -1,6 +1,10 @@
 {
   "values": [
     "tutorialmod:fluorite_shovel",
-    "tutorialmod:azurite_shovel"
+    "tutorialmod:azurite_shovel",
+    "tutorialmod:alexandrite_shovel",
+    "tutorialmod:bismuth_shovel",
+    "tutorialmod:pink_garnet_shovel",
+    "tutorialmod:zircon_shovel"
   ]
 }

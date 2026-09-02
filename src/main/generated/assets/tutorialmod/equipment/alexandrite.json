@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "tutorialmod:alexandrite"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "tutorialmod:alexandrite"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "tutorialmod:alexandrite"
+      }
+    ]
+  }
+}

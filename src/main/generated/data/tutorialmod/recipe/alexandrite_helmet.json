@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": "tutorialmod:alexandrite"
+  },
+  "pattern": [
+    "FFF",
+    "F F"
+  ],
+  "result": {
+    "id": "tutorialmod:alexandrite_helmet"
+  }
+}

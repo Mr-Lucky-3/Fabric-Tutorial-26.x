@@ -1,6 +1,10 @@
 {
   "values": [
     "tutorialmod:fluorite_axe",
-    "tutorialmod:azurite_axe"
+    "tutorialmod:azurite_axe",
+    "tutorialmod:alexandrite_axe",
+    "tutorialmod:bismuth_axe",
+    "tutorialmod:pink_garnet_axe",
+    "tutorialmod:zircon_axe"
   ]
 }

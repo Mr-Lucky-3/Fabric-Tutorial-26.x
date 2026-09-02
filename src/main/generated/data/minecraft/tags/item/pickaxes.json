@@ -1,6 +1,10 @@
 {
   "values": [
     "tutorialmod:fluorite_pickaxe",
-    "tutorialmod:azurite_pickaxe"
+    "tutorialmod:azurite_pickaxe",
+    "tutorialmod:alexandrite_pickaxe",
+    "tutorialmod:bismuth_pickaxe",
+    "tutorialmod:pink_garnet_pickaxe",
+    "tutorialmod:zircon_pickaxe"
   ]
 }

@@ -1,6 +1,10 @@
 {
   "values": [
     "tutorialmod:fluorite_sword",
-    "tutorialmod:azurite_sword"
+    "tutorialmod:azurite_sword",
+    "tutorialmod:alexandrite_sword",
+    "tutorialmod:bismuth_sword",
+    "tutorialmod:pink_garnet_sword",
+    "tutorialmod:zircon_sword"
   ]
 }

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": "tutorialmod:bismuth"
+  },
+  "pattern": [
+    "F F",
+    "F F"
+  ],
+  "result": {
+    "id": "tutorialmod:bismuth_boots"
+  }
+}

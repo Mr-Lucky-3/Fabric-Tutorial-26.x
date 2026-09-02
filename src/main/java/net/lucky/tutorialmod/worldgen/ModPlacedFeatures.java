@@ -16,18 +16,20 @@ import java.util.List;
 public class ModPlacedFeatures {
     public static final ResourceKey<PlacedFeature> OVERWORLD_FLUORITE_ORE_PLACED_KEY = registerKey("overworld_fluorite_ore_placed");
     public static final ResourceKey<PlacedFeature> OVERWORLD_AZURITE_ORE_PLACED_KEY = registerKey("overworld_azurite_ore_placed");
+    public static final ResourceKey<PlacedFeature> OVERWORLD_ALEXANDRITE_ORE_PLACED_KEY = registerKey("overworld_alexandrite_ore_placed");
+    public static final ResourceKey<PlacedFeature> OVERWORLD_BISMUTH_ORE_PLACED_KEY = registerKey("overworld_bismuth_ore_placed");
+    public static final ResourceKey<PlacedFeature> OVERWORLD_PINK_GARNET_ORE_PLACED_KEY = registerKey("overworld_pink_garnet_ore_placed");
+    public static final ResourceKey<PlacedFeature> OVERWORLD_ZIRCON_ORE_PLACED_KEY = registerKey("overworld_zircon_ore_placed");
 
     public static void bootstrap(BootstrapContext<PlacedFeature> context) {
         var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
-        register(context, OVERWORLD_FLUORITE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_FLUORITE_ORE_KEY),
-                commonOrePlacement(12,
-                        HeightRangePlacement.triangle(VerticalAnchor.absolute(-32), VerticalAnchor.absolute(100)))
-        );
-        register(context, OVERWORLD_AZURITE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_AZURITE_ORE_KEY),
-                commonOrePlacement(12,
-                        HeightRangePlacement.triangle(VerticalAnchor.absolute(-32), VerticalAnchor.absolute(100)))
-        );
+        register(context, OVERWORLD_FLUORITE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_FLUORITE_ORE_KEY), commonOrePlacement(12, HeightRangePlacement.triangle(VerticalAnchor.absolute(-32), VerticalAnchor.absolute(100))));
+        register(context, OVERWORLD_AZURITE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_AZURITE_ORE_KEY), commonOrePlacement(12, HeightRangePlacement.triangle(VerticalAnchor.absolute(-32), VerticalAnchor.absolute(100))));
+        register(context, OVERWORLD_ALEXANDRITE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_ALEXANDRITE_ORE_KEY), commonOrePlacement(12, HeightRangePlacement.triangle(VerticalAnchor.absolute(-32), VerticalAnchor.absolute(100))));
+        register(context, OVERWORLD_BISMUTH_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_BISMUTH_ORE_KEY), commonOrePlacement(12, HeightRangePlacement.triangle(VerticalAnchor.absolute(-32), VerticalAnchor.absolute(100))));
+        register(context, OVERWORLD_PINK_GARNET_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_PINK_GARNET_ORE_KEY), commonOrePlacement(12, HeightRangePlacement.triangle(VerticalAnchor.absolute(-32), VerticalAnchor.absolute(100))));
+        register(context, OVERWORLD_ZIRCON_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_ZIRCON_ORE_KEY), commonOrePlacement(12, HeightRangePlacement.triangle(VerticalAnchor.absolute(-32), VerticalAnchor.absolute(100))));
     }
 
     public static List<PlacementModifier> orePlacement(PlacementModifier countModifier, PlacementModifier heightModifier) {

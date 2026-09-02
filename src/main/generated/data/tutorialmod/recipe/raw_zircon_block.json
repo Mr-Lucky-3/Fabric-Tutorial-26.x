@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": "tutorialmod:raw_zircon"
+  },
+  "pattern": [
+    "RRR",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "id": "tutorialmod:raw_zircon_block"
+  }
+}

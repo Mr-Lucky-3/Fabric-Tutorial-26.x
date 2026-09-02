@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": "tutorialmod:pink_garnet"
+  },
+  "pattern": [
+    "F F",
+    "FFF",
+    "FFF"
+  ],
+  "result": {
+    "id": "tutorialmod:pink_garnet_chestplate"
+  }
+}

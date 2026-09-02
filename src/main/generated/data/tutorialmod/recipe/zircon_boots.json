@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": "tutorialmod:zircon"
+  },
+  "pattern": [
+    "F F",
+    "F F"
+  ],
+  "result": {
+    "id": "tutorialmod:zircon_boots"
+  }
+}

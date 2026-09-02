@@ -34,6 +34,26 @@ public class ModEquipmentAssetProvider implements DataProvider {
                         .addHumanoidLayers(Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID,"azurite"))
                         .build()
                 );
+        consumer.accept(ModArmorMaterials.ALEXANDRITE_KEY,
+                EquipmentClientInfo.builder()
+                        .addHumanoidLayers(Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, "alexandrite"))
+                        .build()
+        );
+        consumer.accept(ModArmorMaterials.BISMUTH_KEY,
+                EquipmentClientInfo.builder()
+                        .addHumanoidLayers(Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, "bismuth"))
+                        .build()
+        );
+        consumer.accept(ModArmorMaterials.PINK_GARNET_KEY,
+                EquipmentClientInfo.builder()
+                        .addHumanoidLayers(Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, "pink_garnet"))
+                        .build()
+        );
+        consumer.accept(ModArmorMaterials.ZIRCON_KEY,
+                EquipmentClientInfo.builder()
+                        .addHumanoidLayers(Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, "zircon"))
+                        .build()
+        );
     }
 
     @Override

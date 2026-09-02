@@ -1,6 +1,10 @@
 {
   "values": [
     "tutorialmod:fluorite_chestplate",
-    "tutorialmod:azurite_chestplate"
+    "tutorialmod:azurite_chestplate",
+    "tutorialmod:alexandrite_chestplate",
+    "tutorialmod:bismuth_chestplate",
+    "tutorialmod:pink_garnet_chestplate",
+    "tutorialmod:zircon_chestplate"
   ]
 }

@@ -1,6 +1,10 @@
 {
   "values": [
     "tutorialmod:fluorite_helmet",
-    "tutorialmod:azurite_helmet"
+    "tutorialmod:azurite_helmet",
+    "tutorialmod:alexandrite_helmet",
+    "tutorialmod:bismuth_helmet",
+    "tutorialmod:pink_garnet_helmet",
+    "tutorialmod:zircon_helmet"
   ]
 }

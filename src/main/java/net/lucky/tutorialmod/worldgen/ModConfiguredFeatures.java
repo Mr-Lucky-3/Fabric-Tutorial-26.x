@@ -33,19 +33,21 @@ public class ModConfiguredFeatures {
     // How something looks like
     public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_FLUORITE_ORE_KEY = registerKey("overworld_fluorite_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_AZURITE_ORE_KEY = registerKey("overworld_azurite_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_ALEXANDRITE_ORE_KEY = registerKey("overworld_alexandrite_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_BISMUTH_ORE_KEY = registerKey("overworld_bismuth_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_PINK_GARNET_ORE_KEY = registerKey("overworld_pink_garnet_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_ZIRCON_ORE_KEY = registerKey("overworld_zircon_ore");
 
     public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceables = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
         RuleTest deepslateReplaceables = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
 
-        register(context, OVERWORLD_FLUORITE_ORE_KEY, Feature.ORE, new OreConfiguration(
-                List.of(OreConfiguration.target(stoneReplaceables, ModBlocks.FLUORITE_ORE.defaultBlockState()),
-                        OreConfiguration.target(deepslateReplaceables, ModBlocks.FLUORITE_DEEPSLATE_ORE.defaultBlockState())),
-                9));
-        register(context, OVERWORLD_AZURITE_ORE_KEY, Feature.ORE, new OreConfiguration(
-                List.of(OreConfiguration.target(stoneReplaceables, ModBlocks.AZURITE_ORE.defaultBlockState()),
-                        OreConfiguration.target(deepslateReplaceables, ModBlocks.AZURITE_DEEPSLATE_ORE.defaultBlockState())),
-                9));
+        register(context, OVERWORLD_FLUORITE_ORE_KEY, Feature.ORE, new OreConfiguration(List.of(OreConfiguration.target(stoneReplaceables, ModBlocks.FLUORITE_ORE.defaultBlockState()), OreConfiguration.target(deepslateReplaceables, ModBlocks.FLUORITE_DEEPSLATE_ORE.defaultBlockState())), 9));
+        register(context, OVERWORLD_AZURITE_ORE_KEY, Feature.ORE, new OreConfiguration(List.of(OreConfiguration.target(stoneReplaceables, ModBlocks.AZURITE_ORE.defaultBlockState()), OreConfiguration.target(deepslateReplaceables, ModBlocks.AZURITE_DEEPSLATE_ORE.defaultBlockState())), 9));
+        register(context, OVERWORLD_ALEXANDRITE_ORE_KEY, Feature.ORE, new OreConfiguration(List.of(OreConfiguration.target(stoneReplaceables, ModBlocks.ALEXANDRITE_ORE.defaultBlockState()), OreConfiguration.target(deepslateReplaceables, ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.defaultBlockState())), 9));
+        register(context, OVERWORLD_BISMUTH_ORE_KEY, Feature.ORE, new OreConfiguration(List.of(OreConfiguration.target(stoneReplaceables, ModBlocks.BISMUTH_ORE.defaultBlockState()), OreConfiguration.target(deepslateReplaceables, ModBlocks.BISMUTH_DEEPSLATE_ORE.defaultBlockState())), 9));
+        register(context, OVERWORLD_PINK_GARNET_ORE_KEY, Feature.ORE, new OreConfiguration(List.of(OreConfiguration.target(stoneReplaceables, ModBlocks.PINK_GARNET_ORE.defaultBlockState()), OreConfiguration.target(deepslateReplaceables, ModBlocks.PINK_GARNET_DEEPSLATE_ORE.defaultBlockState())), 9));
+        register(context, OVERWORLD_ZIRCON_ORE_KEY, Feature.ORE, new OreConfiguration(List.of(OreConfiguration.target(stoneReplaceables, ModBlocks.ZIRCON_ORE.defaultBlockState()), OreConfiguration.target(deepslateReplaceables, ModBlocks.ZIRCON_DEEPSLATE_ORE.defaultBlockState())), 9));
     }
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {

@@ -9,10 +9,12 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 public class ModWorldGeneration {
     public static void generateModWorldGen() {
         // Actual world gen class
-        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Decoration.UNDERGROUND_ORES,
-                ModPlacedFeatures.OVERWORLD_FLUORITE_ORE_PLACED_KEY);
-        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Decoration.UNDERGROUND_ORES,
-                ModPlacedFeatures.OVERWORLD_AZURITE_ORE_PLACED_KEY);
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Decoration.UNDERGROUND_ORES, ModPlacedFeatures.OVERWORLD_FLUORITE_ORE_PLACED_KEY);
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Decoration.UNDERGROUND_ORES, ModPlacedFeatures.OVERWORLD_AZURITE_ORE_PLACED_KEY);
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Decoration.UNDERGROUND_ORES, ModPlacedFeatures.OVERWORLD_ALEXANDRITE_ORE_PLACED_KEY);
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Decoration.UNDERGROUND_ORES, ModPlacedFeatures.OVERWORLD_BISMUTH_ORE_PLACED_KEY);
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Decoration.UNDERGROUND_ORES, ModPlacedFeatures.OVERWORLD_PINK_GARNET_ORE_PLACED_KEY);
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Decoration.UNDERGROUND_ORES, ModPlacedFeatures.OVERWORLD_ZIRCON_ORE_PLACED_KEY);
 
         // Example for individual Biomes
         // BiomeModifications.addFeature(BiomeSelectors.includeByKey(Biomes.DEEP_OCEAN, Biomes.BADLANDS),

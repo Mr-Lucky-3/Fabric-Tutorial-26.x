@@ -1,7 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "group": "azurite",
   "key": {
     "R": "tutorialmod:raw_azurite"
   },

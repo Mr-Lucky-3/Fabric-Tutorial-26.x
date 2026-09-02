@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "bismuth",
+  "ingredient": "tutorialmod:bismuth_deepslate_ore",
+  "result": {
+    "id": "tutorialmod:bismuth"
+  }
+}

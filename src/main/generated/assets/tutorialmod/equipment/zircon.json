@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "tutorialmod:zircon"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "tutorialmod:zircon"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "tutorialmod:zircon"
+      }
+    ]
+  }
+}

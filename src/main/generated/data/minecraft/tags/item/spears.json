@@ -1,6 +1,10 @@
 {
   "values": [
     "tutorialmod:fluorite_spear",
-    "tutorialmod:azurite_spear"
+    "tutorialmod:azurite_spear",
+    "tutorialmod:alexandrite_spear",
+    "tutorialmod:bismuth_spear",
+    "tutorialmod:pink_garnet_spear",
+    "tutorialmod:zircon_spear"
   ]
 }

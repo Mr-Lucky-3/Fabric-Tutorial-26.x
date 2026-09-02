@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": "tutorialmod:bismuth"
+  },
+  "pattern": [
+    "F F",
+    "FFF",
+    "FFF"
+  ],
+  "result": {
+    "id": "tutorialmod:bismuth_chestplate"
+  }
+}

@@ -43,7 +43,7 @@ public class ModCreativeModeTabs {
     public static final CreativeModeTab AZURITE_ITEM_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
             Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, "azurite_items"),
             FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.AZURITE))
-                    .title(Component.translatable("creativemodetab.tutorialmod.fluorite_items"))
+                    .title(Component.translatable("creativemodetab.tutorialmod.azurite_items"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.AZURITE);
                         output.accept(ModItems.RAW_AZURITE);
@@ -64,6 +64,102 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.AZURITE_CHESTPLATE);
                         output.accept(ModItems.AZURITE_LEGGINGS);
                         output.accept(ModItems.AZURITE_BOOTS);
+                    }).build()
+    );
+
+    public static final CreativeModeTab ALEXANDRITE_ITEM_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
+            Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, "alexandrite_items"),
+            FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ALEXANDRITE))
+                    .title(Component.translatable("creativemodetab.tutorialmod.alexandrite_items"))
+                    .displayItems((parameters, output) -> {
+                        output.accept(ModItems.ALEXANDRITE);
+                        output.accept(ModItems.RAW_ALEXANDRITE);
+                        output.accept(ModItems.ALEXANDRITE_SWORD);
+                        output.accept(ModItems.ALEXANDRITE_PICKAXE);
+                        output.accept(ModItems.ALEXANDRITE_SHOVEL);
+                        output.accept(ModItems.ALEXANDRITE_AXE);
+                        output.accept(ModItems.ALEXANDRITE_HOE);
+                        output.accept(ModItems.ALEXANDRITE_SPEAR);
+                        output.accept(ModBlocks.ALEXANDRITE_BLOCK);
+                        output.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK);
+                        output.accept(ModBlocks.ALEXANDRITE_ORE);
+                        output.accept(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE);
+                        output.accept(ModItems.ALEXANDRITE_HELMET);
+                        output.accept(ModItems.ALEXANDRITE_CHESTPLATE);
+                        output.accept(ModItems.ALEXANDRITE_LEGGINGS);
+                        output.accept(ModItems.ALEXANDRITE_BOOTS);
+                    }).build()
+    );
+
+    public static final CreativeModeTab BISMUTH_ITEM_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
+            Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, "bismuth_items"),
+            FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BISMUTH))
+                    .title(Component.translatable("creativemodetab.tutorialmod.bismuth_items"))
+                    .displayItems((parameters, output) -> {
+                        output.accept(ModItems.BISMUTH);
+                        output.accept(ModItems.RAW_BISMUTH);
+                        output.accept(ModItems.BISMUTH_SWORD);
+                        output.accept(ModItems.BISMUTH_PICKAXE);
+                        output.accept(ModItems.BISMUTH_SHOVEL);
+                        output.accept(ModItems.BISMUTH_AXE);
+                        output.accept(ModItems.BISMUTH_HOE);
+                        output.accept(ModItems.BISMUTH_SPEAR);
+                        output.accept(ModBlocks.BISMUTH_BLOCK);
+                        output.accept(ModBlocks.RAW_BISMUTH_BLOCK);
+                        output.accept(ModBlocks.BISMUTH_ORE);
+                        output.accept(ModBlocks.BISMUTH_DEEPSLATE_ORE);
+                        output.accept(ModItems.BISMUTH_HELMET);
+                        output.accept(ModItems.BISMUTH_CHESTPLATE);
+                        output.accept(ModItems.BISMUTH_LEGGINGS);
+                        output.accept(ModItems.BISMUTH_BOOTS);
+                    }).build()
+    );
+
+    public static final CreativeModeTab PINK_GARNET_ITEM_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
+            Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, "pink_garnet_items"),
+            FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.PINK_GARNET))
+                    .title(Component.translatable("creativemodetab.tutorialmod.pink_garnet_items"))
+                    .displayItems((parameters, output) -> {
+                        output.accept(ModItems.PINK_GARNET);
+                        output.accept(ModItems.RAW_PINK_GARNET);
+                        output.accept(ModItems.PINK_GARNET_SWORD);
+                        output.accept(ModItems.PINK_GARNET_PICKAXE);
+                        output.accept(ModItems.PINK_GARNET_SHOVEL);
+                        output.accept(ModItems.PINK_GARNET_AXE);
+                        output.accept(ModItems.PINK_GARNET_HOE);
+                        output.accept(ModItems.PINK_GARNET_SPEAR);
+                        output.accept(ModBlocks.PINK_GARNET_BLOCK);
+                        output.accept(ModBlocks.RAW_PINK_GARNET_BLOCK);
+                        output.accept(ModBlocks.PINK_GARNET_ORE);
+                        output.accept(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
+                        output.accept(ModItems.PINK_GARNET_HELMET);
+                        output.accept(ModItems.PINK_GARNET_CHESTPLATE);
+                        output.accept(ModItems.PINK_GARNET_LEGGINGS);
+                        output.accept(ModItems.PINK_GARNET_BOOTS);
+                    }).build()
+    );
+
+    public static final CreativeModeTab ZIRCON_ITEM_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
+            Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, "zircon_items"),
+            FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ZIRCON))
+                    .title(Component.translatable("creativemodetab.tutorialmod.zircon_items"))
+                    .displayItems((parameters, output) -> {
+                        output.accept(ModItems.ZIRCON);
+                        output.accept(ModItems.RAW_ZIRCON);
+                        output.accept(ModItems.ZIRCON_SWORD);
+                        output.accept(ModItems.ZIRCON_PICKAXE);
+                        output.accept(ModItems.ZIRCON_SHOVEL);
+                        output.accept(ModItems.ZIRCON_AXE);
+                        output.accept(ModItems.ZIRCON_HOE);
+                        output.accept(ModItems.ZIRCON_SPEAR);
+                        output.accept(ModBlocks.ZIRCON_BLOCK);
+                        output.accept(ModBlocks.RAW_ZIRCON_BLOCK);
+                        output.accept(ModBlocks.ZIRCON_ORE);
+                        output.accept(ModBlocks.ZIRCON_DEEPSLATE_ORE);
+                        output.accept(ModItems.ZIRCON_HELMET);
+                        output.accept(ModItems.ZIRCON_CHESTPLATE);
+                        output.accept(ModItems.ZIRCON_LEGGINGS);
+                        output.accept(ModItems.ZIRCON_BOOTS);
                     }).build()
     );
 
